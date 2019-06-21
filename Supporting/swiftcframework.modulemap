@@ -1,0 +1,20 @@
+//
+//  SwiftCFramework.modulemap
+//  SwiftCFramework
+//
+//  Created by AT on 6/20/19.
+//  Copyright © 2019 monkey.work All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+framework module SwiftCFramework {
+
+    umbrella header "SwiftCFramework.h"
+
+    export *
+    module * {export *}
+
+    header "factorial.h"
+}

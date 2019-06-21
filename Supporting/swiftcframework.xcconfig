@@ -1,0 +1,13 @@
+//
+//  SwiftCFramework.xcconfig
+//  SwiftCFramework
+//
+//  Created by AT on 6/20/19.
+//  Copyright © 2019 monkey.work All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+MODULEMAP_FILE[sdk=iphoneos*] = $(SRCROOT)/Supporting/swiftcframework.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/Supporting/swiftcframework.modulemap
